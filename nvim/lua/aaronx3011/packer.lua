@@ -27,13 +27,13 @@ return require('packer').startup(function(use)
   use {'theprimeagen/harpoon'}
   use {'mbbill/undotree'}
   use {'tpope/vim-fugitive'}
-
-  use({'neovim/nvim-lspconfig'})
-  use({'hrsh7th/nvim-cmp'})
-  use({'hrsh7th/cmp-nvim-lsp'})
-  use {'hrsh7th/cmp-buffer'} -- For buffer completion
-  use {'hrsh7th/cmp-path'} -- For path completion
-  use {'saadparwaiz1/cmp_luasnip'} -- For snippet completion (optional, but great)
+  use {'christoomey/vim-tmux-navigator'}
+  use {'neovim/nvim-lspconfig'}
+  use {'hrsh7th/nvim-cmp'}
+  use {'hrsh7th/cmp-nvim-lsp'}
+  use {'hrsh7th/cmp-buffer'}
+  use {'hrsh7th/cmp-path'}
+  use {'saadparwaiz1/cmp_luasnip'}
   use {'L3MON4D3/LuaSnip'}
 
 end)
